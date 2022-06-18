@@ -45,15 +45,19 @@ import:
   - file: .kibot/bom_kicost.kibot.yml
   - file: .kibot/docs.kibot.yml
 #  - file: .kibot/datasheets.kibot.yml
-# fabrications
+# generic fabrications
   - file: .kibot/bom_octopart.kibot.yml
   - file: .kibot/gerbers.kibot.yml
   - file: .kibot/drills.kibot.yml
   - file: .kibot/fabrications.kibot.yml
+# JLCPCB  
+  - file: .kibot/JLCPCB-2layer-stencil.kibot.yml
+# PCBWay  
+  - file: .kibot/PCBWay-2layer-stencil.kibot.yml
 # img
   - file: .kibot/render.kibot.yml
   - file: .kibot/plot.kibot.yml
-#  - file: .kibot/plot_jlcpcb-green-enig.kibot.yml
+  - file: .kibot/plot_jlcpcb-green-enig.kibot.yml
 #  - file: .kibot/plot_jlcpcb-green-hasl.kibot.yml
 #  - file: .kibot/plot_oshpark-afterdark.kibot.yml
 #  - file: .kibot/plot_oshpark-purple.kibot.yml

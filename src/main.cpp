@@ -1,3 +1,9 @@
+/*
+ * SPDX-FileCopyrightText: 2022 Terry Cox <terry@bootstrap.ltd>
+ *
+ * SPDX-License-Identifier:  CC-BY-NC-ND-4.0
+ */
+
 #include <Arduino.h>
 
 void setup() {

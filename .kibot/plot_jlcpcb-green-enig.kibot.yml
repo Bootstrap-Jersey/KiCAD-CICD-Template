@@ -1,6 +1,6 @@
 outputs:
   # For more information: https://github.com/INTI-CMNB/KiBoM
-  - name: 'enig green svg top'
+  - name: 'enig_green_top.svg'
     comment: 'https://github.com/yaqwsx/PcbDraw'
     type: 'pcbdraw'
     dir: 'img/pcb/jlcpcb/green_enig'
@@ -40,7 +40,7 @@ outputs:
       # [string='visible'] [visible,all,none] using visible only the warnings about components in the visible side are generated
       warnings: 'none'
 
-  - name: 'enig green svg top'
+  - name: 'enig_green_bottom.svg'
     comment: 'https://github.com/yaqwsx/PcbDraw'
     type: 'pcbdraw'
     dir: 'img/pcb/jlcpcb/green_enig'

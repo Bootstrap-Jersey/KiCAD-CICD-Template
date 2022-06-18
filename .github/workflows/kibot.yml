@@ -76,7 +76,7 @@ jobs:
       - name: run kibot
         run: |
           kibot -c kibot.yml -e ${{env.schema}} -b ${{env.board}} -d ${{env.dir}} -s run_erc,run_drc -v \
-            gerbers.gbr drills.gbr drills.drl pickandplace.csv bom.csv
+            gerbers.gbr drills.gbr drills.drl pickandplace.csv bom.csv JLCPCB_gerbers JLCPCB_drill JLCPCB_position JLCPCB_bom JLCPCB PCBWay_gerbers PCBWay_drill PCBWay
       - uses: actions/upload-artifact@v2
         if: ${{success()}}
         with:
@@ -118,7 +118,7 @@ jobs:
       - name: run kibot
         run: | 
           kibot -c kibot.yml -e ${{env.schema}} -b ${{env.board}} -d ${{env.dir}} -s run_erc,run_drc -v \
-            board_black_top.svg board_black_bottom.svg
+            board_black_top.svg board_black_bottom.svg enig_green_top.svg enig_green_bottom.svg
       - uses: actions/upload-artifact@v2
         if: ${{success()}}
         with:
