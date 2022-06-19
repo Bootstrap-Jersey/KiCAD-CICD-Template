@@ -48,7 +48,7 @@ used to rebuild your source code whenever it changes.
 
 ### REUSE
 
-used to insure every file got a propper license. 
+used to ensure every file has an associated license. 
 
 ## getting started
 
