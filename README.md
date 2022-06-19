@@ -40,6 +40,8 @@ The following documents are generated on every build:
 - pcb/gerbers - ZIP
 ```
 
+These are packaged up and may be downloaded from the Actions section of your GitHub web console.
+
 ### PlatformIO
 
 used to rebuild your source code whenever it changes.
@@ -50,15 +52,16 @@ used to insure every file got a propper license.
 
 ## getting started
 
-- [ ] hit the "use this template" button and give your project a name
-- [ ] clone this new repository localy
-- [ ] replace content of README.md
+- [ ] In the GitHub web UI, hit the "use this template" button and give your project a name
+- [ ] clone this new repository locally
+- [ ] cd to this repo and execute `./init.sh` to initialise your KiCad project before opening it
+- [ ] replace content of README.md with information relevant to your project
 - [ ] Code
    - [ ] put your code in the `src/` folder using platformio
 - [ ] PCB
-   - [ ] change the filenames in `pcb/*.kicad_*` matching your repository name
+   - [ ] open `pcb/<your project repo name>.kicad_pro`
    - [ ] create your PCB
 - [ ] run `reuse --lint`
-   - [ ] make sure the licenses of `pcb/*` fits your needs
+   - [ ] make sure the licenses of `pcb/*` fits your needs (see document comments)
    - [ ] make sure the licenses of `src/*`, `include/*`, `lib/*`, `test/*` fits your needs
 - [ ] commit and push all those changes regulary to your project
