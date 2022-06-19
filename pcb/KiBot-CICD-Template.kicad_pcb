@@ -56,10 +56,11 @@
       (layer "B.Mask" (type "Bottom Solder Mask") (color "Green") (thickness 0.01))
       (layer "B.Paste" (type "Bottom Solder Paste"))
       (layer "B.SilkS" (type "Bottom Silk Screen") (color "White"))
-      (copper_finish "None")
+      (copper_finish "ENIG")
       (dielectric_constraints no)
     )
-    (pad_to_mask_clearance 0)
+    (pad_to_mask_clearance 0.05)
+    (solder_mask_min_width 0.254)
     (aux_axis_origin 137.16 104.14)
     (grid_origin 137.16 104.14)
     (pcbplotparams
