@@ -8,7 +8,7 @@
     (title "KiBot-CICD-Template")
     (date "${date}")
     (rev "${version}")
-    (company "nerdyscout")
+    (company "Bootstrap Ltd")
     (comment 4 "CERN Open Hardware Licence v2.0")
   )
 
