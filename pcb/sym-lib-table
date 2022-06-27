@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "Eurorack")(type "KiCad")(uri "${KIPRJMOD}/Eurorack.kicad_sym")(options "")(descr ""))
+  (lib (name "Arduino")(type "KiCad")(uri "${KIPRJMOD}/Arduino.kicad_sym")(options "")(descr ""))
+)
