@@ -6,7 +6,7 @@
 
 # KiCAD-CICD-Template
 
-This repository provides different CI/CD workflows used for projects using [KiCAD](https://www.kicad.org/) and [PlatformIO](https://www.platformio.org).
+This repository provides different CI/CD workflows used for projects using [KiCAD](https://www.kicad.org/) and [PlatformIO](https://platformio.org).
 
 ## workflows
 
@@ -64,4 +64,4 @@ used to ensure every file has an associated license.
 - [ ] run `reuse --lint`
    - [ ] make sure the licenses of `pcb/*` fits your needs (see document comments)
    - [ ] make sure the licenses of `src/*`, `include/*`, `lib/*`, `test/*` fits your needs
-- [ ] commit and push all those changes regulary to your project
+- [ ] commit and push all those changes regularly to your project
