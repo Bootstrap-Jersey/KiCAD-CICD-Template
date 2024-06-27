@@ -120,6 +120,7 @@ outputs:
       - F.Paste
       - B.Paste
       - Edge.Cuts
+      - User.Eco1
 
   - name: JLCPCB_drill
     comment: Drill - JLCPCB

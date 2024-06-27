@@ -15,8 +15,8 @@ preflight:
     - name: "version"
       command: git describe --exact-match --tags 2> /dev/null || git rev-parse --short HEAD
   update_xml: true
-  run_erc: true
-  run_drc: true
+  erc: true
+  drc: true
   check_zone_fills: true
   ignore_unconnected: false
 #  update_qr: true
@@ -39,12 +39,15 @@ filters:
       - column: Reference
         regex: "^(G|#|TP|F).*"
 
+global:
+    units: millimeters
+
 import:
 # docs 
   - file: .kibot/bom_ibom.kibot.yml
   - file: .kibot/bom_kicost.kibot.yml
   - file: .kibot/docs.kibot.yml
-#  - file: .kibot/datasheets.kibot.yml
+  - file: .kibot/datasheets.kibot.yml
 # generic fabrications
   - file: .kibot/bom_octopart.kibot.yml
   - file: .kibot/gerbers.kibot.yml

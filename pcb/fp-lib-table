@@ -1,4 +1,0 @@
-(fp_lib_table
-  (lib (name "Eurorack")(type "KiCad")(uri "${KIPRJMOD}/Eurorack.pretty")(options "")(descr ""))
-  (lib (name "Arduino")(type "KiCad")(uri "${KIPRJMOD}/Arduino.pretty")(options "")(descr ""))
-)

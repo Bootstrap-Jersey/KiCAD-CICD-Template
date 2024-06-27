@@ -4,16 +4,16 @@ Upstream-Contact: nerdyscout <nerdyscout@posteo.de>
 Source: github.com/nerdyscout/KiBot-CICD-Template
 
 Files: pcb/*
-Copyright: 2022, nerdyscout <nerdyscout@posteo.de>
-License: CERN-OHL-P-2.0
+Copyright: 2024, Terry Cox <terry@cognitional.ltd>
+License: LicenseRef-COMMERCIAL
 
 Files: pcb/docs/* README.md
-Copyright: 2022, nerdyscout <nerdyscout@posteo.de>
-License: CC-BY-SA-4.0
+Copyright: 2024, Terry Cox <terry@cognitional.ltd>
+License: LicenseRef-COMMERCIAL
 
 Files: src/* lib/* include/* test/*
-Copyright: 2022, nerdyscout <nerdyscout@posteo.de>
-License: GPL-3.0-or-later
+Copyright: 2024, Terry Cox <terry@cognitional.ltd>
+License: LicenseRef-COMMERCIAL
 
 Files: .gitignore .kibot/* *.yml *.yaml *.ini
 Copyright: 2022, nerdyscout <nerdyscout@posteo.de>

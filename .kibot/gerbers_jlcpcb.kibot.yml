@@ -91,6 +91,7 @@ outputs:
       - F.Mask
       - B.Mask
       - Edge.Cuts
+	  - User.Eco1
 
   - name: JLCPCB_drill
     comment: Drill - JLCPCB

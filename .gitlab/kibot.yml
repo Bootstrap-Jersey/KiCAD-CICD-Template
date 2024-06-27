@@ -5,7 +5,7 @@ variables:
 
 default:
   timeout: 5m
-  image: setsoft/kicad_auto:ki6
+  image: ghcr.io/inti-cmnb/kicad8_auto:1.7.0
   artifacts:
     exclude:
     - $OUTDIR/**/*.ogv

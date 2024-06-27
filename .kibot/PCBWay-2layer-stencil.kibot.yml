@@ -36,6 +36,7 @@ outputs:
       - F.Paste
       - B.Paste
       - Edge.Cuts
+      - User.Eco1
 
   - name: PCBWay_drill
     comment: Drill files compatible with PCBWay

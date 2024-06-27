@@ -20,6 +20,8 @@ outputs:
           - Description
           - Part
           - Value
+          - manf#
+          - mouser#
           - field: Quantity Per PCB
             name: Qty
         # [list(list(string))] A series of values which are considered to be equivalent for the part name.

@@ -1,4 +1,9 @@
 #!/bin/bash
+
+# SPDX-FileCopyrightText: 2022 nerdyscout <https://github.com/nerdyscout/>
+#
+# SPDX-License-Identifier: CC0-1.0
+
 project=${PWD##*/}
 sed -i '' "s/KiBot-CICD-Template/$project/g" pcb/KiBot-CICD-Template.kicad_pcb pcb/KiBot-CICD-Template.kicad_prl pcb/KiBot-CICD-Template.kicad_pro pcb/KiBot-CICD-Template.kicad_sch
 mv pcb/KiBot-CICD-Template.kicad_pcb pcb/$project.kicad_pcb

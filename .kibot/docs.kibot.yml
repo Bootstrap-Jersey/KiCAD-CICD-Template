@@ -44,6 +44,7 @@ outputs:
       - 'F.Mask'
       - 'Cmts.User'
       - 'Edge.Cuts'
+      - 'User.Eco1'
 
   - name: 'board_bottom.pdf'
     comment: "generate board bottom (PDF)"

@@ -23,7 +23,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 # https://github.com/karniv00l/platformio-run-action
-      - uses: karniv00l/platformio-run-action@1.1.1
+      - uses: karniv00l/platformio-run-action@1.1.2
 #        with:
 #          environments: ""
 #          targets: ""

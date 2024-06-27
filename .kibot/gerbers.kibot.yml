@@ -52,3 +52,4 @@ outputs:
       - 'B.Mask'
       - 'F.SilkS'
       - 'B.SilkS'
+      - 'User.Eco1'

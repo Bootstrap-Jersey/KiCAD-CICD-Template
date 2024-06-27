@@ -1,7 +1,7 @@
 /*
- * SPDX-FileCopyrightText: 2022 Terry Cox <terry@bootstrap.ltd>
+ * SPDX-FileCopyrightText: 2024  Terry Cox <terry@cognitional.ltd>
  *
- * SPDX-License-Identifier:  CC-BY-NC-ND-4.0
+ * SPDX-License-Identifier:  LicenseRef-COMMERCIAL
  */
 
 #include <Arduino.h>

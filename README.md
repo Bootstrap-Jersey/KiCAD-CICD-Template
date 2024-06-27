@@ -12,7 +12,7 @@ This repository provides different CI/CD workflows used for projects using [KiCA
 
 ### KiBot
 
-[KiBot](https://github.com/INTI-CMNB/KiBot/) is used to generate all kind of documentation from a KiCAD6 project.
+[KiBot](https://github.com/INTI-CMNB/KiBot/) is used to generate all kind of documentation from a KiCAD8 project.
 
 Whenever a file matching `pcb/*.kicad_*` changes this workflow will trigger.
 
@@ -65,3 +65,6 @@ used to ensure every file has an associated license.
    - [ ] make sure the licenses of `pcb/*` fits your needs (see document comments)
    - [ ] make sure the licenses of `src/*`, `include/*`, `lib/*`, `test/*` fits your needs
 - [ ] commit and push all those changes regularly to your project
+
+[//] Copyright: 2024, Terry Cox <terry@cognitional.ltd>
+[//] License: CC0-1.0
